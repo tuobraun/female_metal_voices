@@ -1,0 +1,37 @@
+[
+  {
+    "artist": "Tarja",
+    "album": "My Winter Storm",
+    "year": "2007",
+    "img": "assets/_2007_mws.jpg",
+    "domain": "https://en.wikipedia.org/wiki/My_Winter_Storm"
+  },
+  {
+    "artist": "Tarja",
+    "album": "What Lies Beneath",
+    "year": "2010",
+    "img": "assets/_2010_wlb.jpg",
+    "domain": "https://en.wikipedia.org/wiki/What_Lies_Beneath_(Tarja_album)"
+  },
+  {
+    "artist": "Tarja",
+    "album": "Act I",
+    "year": "2012",
+    "img": "assets/_2012_act11.jpg",
+    "domain": "https://en.wikipedia.org/wiki/Act_I:_Live_in_Rosario"
+  },
+  {
+    "artist": "Tarja",
+    "album": "Colours in the Dark",
+    "year": "2013",
+    "img": "assets/_2013_citd.jpg",
+    "domain": "https://en.wikipedia.org/wiki/Colours_in_the_Dark_(album)"
+  },
+  {
+    "artist": "Tarja",
+    "album": "The Shadow Self",
+    "year": "2016",
+    "img": "assets/_2016_tss.jpg",
+    "domain": "https://en.wikipedia.org/wiki/The_Shadow_Self"
+  }
+]
