@@ -131,10 +131,12 @@ packages:
   url_launcher:
     dependency: "direct main"
     description:
-      name: url_launcher
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.0.1"
+      path: "packages/url_launcher"
+      ref: HEAD
+      resolved-ref: "3897d4305492d658ed5a22570cbe36f3cb2ee73e"
+      url: "git://github.com/flutter/plugins"
+    source: git
+    version: "4.0.3"
   vector_math:
     dependency: transitive
     description:

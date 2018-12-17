@@ -133,7 +133,7 @@ class Card extends StatelessWidget {
           children: <Widget>[
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Text("version 0.2.2"),
+              child: Text("version 0.3.0"),
             ),
             
             FlatButton(

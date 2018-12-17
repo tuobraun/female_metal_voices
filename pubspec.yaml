@@ -1,11 +1,15 @@
 name: female_metal_voices
 description: A new Flutter project.
+version: 1.2.1+1
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^0.1.2
-  url_launcher: ^4.0.1
+  url_launcher:
+    git:
+      url: git://github.com/flutter/plugins
+      path: packages/url_launcher
 
 dev_dependencies:
   flutter_test:
@@ -13,7 +17,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  
   assets:
+    - assets/json/tarja_albums.json
     - assets/card1.jpg
     - assets/card2.jpg
     - assets/card3.jpg
