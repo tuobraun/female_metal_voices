@@ -15,7 +15,7 @@ class TarjaAlbumsList extends StatelessWidget {
             ListTile(
               leading: CircleAvatar(
                 backgroundImage: AssetImage(tarjaalbumlist[index].img),
-              ),
+                ),
               title: Text(tarjaalbumlist[index].name, style: TextStyle(fontSize: 20.0)),
               subtitle: Text(tarjaalbumlist[index].year, style: TextStyle(fontSize: 15.0)),
                onTap: () async {

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart'; // Need to import package for invert Status Bar SystemChrome.setSystemUIOverlayStyle
 import 'popup.dart';
+import 'hero.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(
@@ -58,8 +59,7 @@ class Card extends StatelessWidget {
                 ),
               ),
             );
-          }
-      );
+          });
     }
 
     return Stack(
@@ -81,17 +81,30 @@ class Card extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.all(16.0),
-              child: Text(
-                'Tarja'.toUpperCase(), // CAPS
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 25.0,
-                  fontFamily: 'petita',
-                  fontWeight: FontWeight.bold,
-                  letterSpacing: 2.0,
+              child: Hero(
+                tag: "TarjaAlbums",
+                child: FlatButton(
+                  child: Text(
+                    'Tarja'.toUpperCase(), // CAPS
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 25.0,
+                      fontFamily: 'petita',
+                      fontWeight: FontWeight.bold,
+                      letterSpacing: 2.0,
+                    ),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context, MaterialPageRoute(
+                        builder: (_) {
+                          return TarjaHero();
+                    }));
+                  },
                 ),
               ),
             ),
+
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30.0),
@@ -135,7 +148,6 @@ class Card extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Text("version 0.3.0"),
             ),
-            
             FlatButton(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(30.0)),

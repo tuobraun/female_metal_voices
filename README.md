@@ -11,7 +11,8 @@ Examples of:
 - FutureBuilder
 - ListView.builder
 - Json parsing from an Asset
-- URL Launcher
+- URL Launcher (latest package from Git)
+- Hero Widget inplemented (Android Shared Element Transition)
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
