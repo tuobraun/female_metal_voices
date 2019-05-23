@@ -13,6 +13,7 @@ Examples of:
 - Json parsing from an Asset
 - URL Launcher (latest package from Git)
 - Hero Widget inplemented (Android Shared Element Transition)
+- Custom icons created (Android, iOS)
 
 For help getting started with Flutter, view our online
 [documentation](https://flutter.io/).
